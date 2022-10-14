@@ -6,7 +6,7 @@ pipeline {
 	}
 
     environment {
-        registryCredential = 'ecr:us-east-2:awscreds'
+        registryCredential = 'ecr:us-east-1:awscreds'
         appRegistry = "946508197493.dkr.ecr.us-east-1.amazonaws.com/docker"
         vprofileRegistry = "https://946508197493.dkr.ecr.us-east-1.amazonaws.com"
         cluster = "vprofile"
